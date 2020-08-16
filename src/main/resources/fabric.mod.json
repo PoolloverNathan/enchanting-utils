@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "enchantmentutils",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "EnchantmentUtils",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": ""
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/enchantmentutils/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tk.kulzers.fabric.enchantmentutils.EnchantmentUtils"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "enchantmentutils.mixins.json"
   ],
 
   "depends": {
